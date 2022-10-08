@@ -1,0 +1,43 @@
+<html>
+
+<head>
+</head>
+
+<body style="background-color:rgb(249, 171, 228)">
+   <center>
+      <h1>HI !! YOUR DETAILS ARE...</h1>
+      <table>
+         <tr>
+            <td>Name: <span id="display-name" /></td>
+         </tr>
+         <tr>
+            <td>Qualifications: <span id="display-qual" /></td>
+         </tr>
+         <tr>
+            <td>Age:<span id="display-age" /></td>
+         </tr>
+         <tr>
+            <td>Email:<span id="display-email" /></td>
+         </tr>
+      </table>
+      <script>
+         window.addEventListener('load', () => {
+            const Params = (new URL(document.location)).searchParams;
+            const name = Params.get('name');
+            const Qualifications = Params.get('qual');
+            const age = Params.get('age');
+            const email = Params.get('mail');
+
+            document.getElementById('display-name').innerHTML = name;
+            document.getElementById('display-qual').innerHTML = Qualifications;
+            document.getElementById('display-age').innerHTML = age;
+            document.getElementById('display-email').innerHTML = email;
+         })
+
+      </script>
+
+
+   </center>
+</body>
+
+</html>
