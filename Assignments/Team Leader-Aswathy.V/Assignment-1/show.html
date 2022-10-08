@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body>
+<center>	
+<h2>HI !! YOUR DETAILS ARE...</h2>
+<h3>Name: <span id="display-name"/></h3>
+<h3>Qualification:<span id="display-qual"/></h3>
+<h3>Age:<span id="display-age"/></h3>
+<h3>Email:<span id="display-email"/></h3>
+
+<script>
+window.addEventListener('load',() => {
+   const Params = (new URL(document.location)).searchParams;
+   const name = Params.get('name');
+   const Qualifications = Params.get('qual');
+   const age = Params.get('age');
+   const email = Params.get('mail');
+   
+   document.getElementById('display-name').innerHTML=name;
+   document.getElementById('display-qual').innerHTML=Qualifications;
+   document.getElementById('display-age').innerHTML=age;
+   document.getElementById('display-email').innerHTML=email;
+   })
+   
+</script>
+
+
+</center>
+</body>
+</html>
