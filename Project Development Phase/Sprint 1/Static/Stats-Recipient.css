@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #bfa7f2 0%, #f98da4 100%);
+  font-family: "Sansita Swashed", cursive;
+}
+
+.center {
+  position: relative;
+  padding: 50px 50px;
+  /* background: #fff; */
+  border-radius: 10px;
+}
+
+.center h1 {
+  font-size: 2em;
+  border-left: 5px solid rgb(248, 6, 119);
+  color: #000;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.app-form-button {
+  background: dodgerblue;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  outline: #bfa7f2;
+  align-self: left;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px;
+  padding: 10px 20px;
+}
+
+.app-form-button:hover {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+a:link, a:visited {
+  background:dodgerblue; 
+  border-radius: 26px;
+border: 2px solid #D4D3E8;
+  color: #4C489D;
+box-shadow: 0px 2px 2px #5C5696;
+  color:black;
+  font-weight: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 40px;
+  width: 200px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+a:hover, a:active {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+}

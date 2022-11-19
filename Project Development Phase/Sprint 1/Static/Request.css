@@ -1,0 +1,92 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    background: linear-gradient(to right,  #bfa7f2 0%, #f98da4 100%);
+    font-size: 12px;
+  }
+  
+  body, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    display: flex;
+    min-height: 70vh;
+  }
+  
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  .app-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #e60362;
+    font-weight:900;
+    font-size: 50px;
+  }
+  .app-form-group {
+    margin-bottom: 24px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 20px;
+  }
+  
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .3s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  .app-form-radio{
+    color: #666;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  a:link, a:visited {
+    background:dodgerblue; 
+    border-radius: 26px;
+	border: 2px solid #D4D3E8;
+    color: #4C489D;
+	box-shadow: 0px 2px 2px #5C5696;
+    color:black;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  a:hover, a:active {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+  }
