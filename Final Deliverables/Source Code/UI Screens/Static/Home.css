@@ -1,0 +1,50 @@
+.background {
+    /* display: flex;  */
+    min-height: 70vh;
+  }
+  
+  .container {
+    /* flex: 0 1 700px;  */
+    margin: auto;
+    /* xpadding: 4px; */
+  }
+  body {
+    background: linear-gradient(to right,  #bfa7f2 0%, #f98da4 100%);
+    font-size: 12px;
+  }
+  body, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  .app-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*   display: flex; */
+    /* flex-direction: column; */
+    /* position: relative; */
+    color: #e60362;
+    font-weight:900;
+    font-size: 35px;
+  }
+
+  a:link, a:visited {
+    background:#fff;
+    border-radius: 26px;
+	border: 2px solid #D4D3E8;
+    color: #4C489D;
+	box-shadow: 0px 2px 2px #5C5696;
+    color:black;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  a:hover, a:active {
+    background-color:#8e85dd;
+  }

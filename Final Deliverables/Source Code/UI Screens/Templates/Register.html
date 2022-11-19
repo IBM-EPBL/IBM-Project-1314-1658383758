@@ -1,0 +1,87 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="Register.css">
+  </head>
+<body>
+   <center>
+   <div class="background">
+      <div class="container">
+    <center>
+            <img src="https://img.icons8.com/external-flat-circular-vectorslab/200/external-Blood-Donation-medical-and-health-care-flat-circular-vectorslab.png"
+                alt="oops!Image not found" />
+                <div class="screen-body-item left">
+                  <div class="app-title">
+                      <span>REGISTER YOUR</span>
+                      <span>DETAILS</span>
+                  </div>
+                 <br>
+              </div>
+        
+        <div>
+            <table>
+                
+               <div class="screen-body-item">
+                  <div class="app-form">
+                      <div class="app-form-group">
+                          <input class="app-form-control" placeholder="Name">
+                      </div>
+                    <div class="app-form-radio">
+                     <label class="app-form-radio">Gender</label>
+                     <input type="radio" class="app-form-radio" id="male" name="gender" value="male" class="gender">
+                     <label for="male"  class="app-form-radio">Male</label>
+                     <input type="radio" class="app-form-radio" id="female" name="gender" value="female">
+                     <label for="female"  class="app-form-radio">Female</label>
+                 </div>
+                 <br>
+                 <div class="app-form-group">
+                  <input class="app-form-control" type="email" placeholder="Email">
+              </div><br>
+              <div class="app-form-group">
+               <input class="app-form-control" type="number"placeholder="Mobile Number">
+           </div>
+                      <div class="app-form-group">
+                          <label class="app-form-radio">Blood Group</label>
+                      <select name="bloodgroup" id="bloodgroup" class="details">
+                          <option value="a+">A+</option>
+                          <option value="a-">A-</option>
+                          <option value="b+">B+</option>
+                          <option value="b-">B-</option>
+                          <option value="ab+">AB+</option>
+                          <option value="ab-">AB-</option>
+                          <option value="o+">O+</option>
+                          <option value="o-">O-</option>
+                      </select>
+                      </div><br>
+                      <div class="app-form-group">
+                        <textarea class="app-form-area" type="text" rows="7" columns="30" placeholder="Address"></textarea>
+                    </div><br>
+                    <div class="app-form-group">
+                     <input class="app-form-control" type="text"placeholder="New Password">
+                 </div><br>
+                 <div class="app-form-group">
+                  <input class="app-form-control" type="password"placeholder="Confirm Password">
+              </div><br>
+                      
+                          <a href="Home.html" target="_blank">Register</a>
+                      <br>
+                      
+        </table>
+		<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "0241a66d-d023-4df2-99ba-7bcc80aefd5a", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "1550a48f-f64b-4d94-8721-e6d2c76a1fec", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</script>
+     
+    </center>
+
+</body>
+</html>
